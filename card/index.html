@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>persons Card UI Design Inspiration - HTML & CSS | SoftAOX</title>
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='style.css'>
+</head>
+ 
+<body>
+    <header>    
+        <nav class="menu">
+            <a href="index.html"><img src="img/logo.svg" style="height:56px; margin: 15px;"></a>
+            <ul>
+              <li><a href="#">чому ми</a></li>
+              <li><a href="#">заняття</a></li>
+              <li><a href="#">групи</a></li>
+              <li><a href="#">відгуки</a></li>
+              <li><a href="#">питання</a></li>
+              <li><a href="#">контакти</a></li>
+              <li><button class="btn">Замовити дзвінок</button></li>
+            </ul>
+          </nav>
+          <!-- <div class="main-nav">
+            <nav>
+              <a href="index.html"><img src="https://fiori.ua/wp-content/uploads/2020/06/logo.svg" alt="Fiori" style="height:56px;"></a>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Послуги</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+          </div> -->
+    </header>
+ 
+    <div class="container">
+
+        <div class="maina">
+            <img src="img/11.jpg" alt="" style="width: 30%; position: absolute; width: 400px; height: 350px; left: -180px; top: 200px;">
+            <div class="interes" style="position: absolute; width: 480px; height: 200px; left: 500px; top: 150px; text-align: center;"><span>приватні <br> <span style='color:rgb(254, 87, 11);'>садочки у краматорську</span>  <br> від 1 до 6 років</span>
+                <button class="btn">Мені цікаво спробувати</button>
+            </div>
+            <img src="img/22.jpg" alt="" style="width: 30%; position: absolute; width: 549px; height: 549px; right: -100px; top: 100px;">
+            <div class="column">
+                <div class="description"><img src="img/1.svg" alt=""><br> розвиваючий <br> простір для діток <br> від 1 до 6 років</div>
+                <div class="description"><img src="img/2.svg" alt=""><br> від 1-2 років <br> від 2-3 років <br> від 4-6 років</div>
+                <div class="description"><img src="img/3.svg" alt=""><br> Кількість дітей: <br> до 10 на одну <br> групу</div>
+                <div class="description"><img src="img/4.svg" alt=""><br> SТЕМ методика — <br> новий інтеграційний <br> підхід до розвитку</div>
+            </div>
+        </div>
+
+        <div class="stem-desc">
+            <div class="stem">STEM:<br> Science - наука <br> Technology - технологія <br> Engineering- інженерія <br> Mathematics- математика</div>
+            <div class="desc">SТRЕАМ-освіта — новий інтеграційний підхід до розвитку, виховання й навчання дітей. <br> Цей напрям освіти інтегрує в собі завдання з формування в дітей загальних наукових <br> уявлень про світ; ознайомлення їх з інформаційно- комунікаційними технологіями; <br> розвиток уміння експериментувати, конструювати; навчання дітей основ <br> опрацювання змісту тексту, грамоти, математики, а також різних видів мистецтва. Тож <br> маємо в тісному взаємозв'язку розвивати здібності дошкільнят до точних та <br> гуманітарних наук.</div>
+        </div>
+        <h3 class="why">Чому батьки обирають нас?</h3>
+        <div class="why-desc">
+            <!-- <h3 class="why">Чому батьки обирають нас?</h3> -->
+            <ul>
+                <li id="toy">Якісні іграшки</li>
+                <li id="med">Щоденний огляд медичного працивніка</li>
+                <li id="photo">Щоденні фотозвіти із занять та ігор дітей</li>
+                <li id="walk">Прогулянки за будь-якої погоди</li>
+            </ul>
+            <ul>
+                <li id="holiday">Незабутні сімейні свята</li>
+                <li id="video">Відео спостереження</li>
+                <li id="positive">Позитивне та креативне середовище для розвитку</li>
+                <li id="lego">Lego-конструювання</li>
+            </ul>
+            <ul>
+                <li id="profi">Високопрофесійні педагоги</li>
+                <li id="food">Смачне здорове харчування</li>
+                <li id="psychologist">Супровід психолога та логопеда</li>
+                <li id="modern">Сучасні методики, які br розкривають таланти та здібності кожної дитини</li>
+            </ul>
+        </div>
+        <div class="toys">Ми регулярно практикуємо хенд-мейд. <br>
+            Діти самостійно створять для себе <br> улюблені іграшки.
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+ 
+                <main role="main" class="person_list">
+                    <div class="pt-8 pb-2 mb-3 border-bottom">
+ 
+                        <div class="row">
+                            <p class="team">Наша команда</p>
+                        </div>
+ 
+                        <div class="row">
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-1">
+                                </div>
+ 
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Світлана</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-2">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Аліна</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-3">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Лілія</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-4">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Марта</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-5">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Оксана</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-6">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Ярина</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-7">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Леся</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                            <!-- person Card Start -->
+                            <div class="card-view">
+                                <div class="card-header kindergartener-8">
+                                </div>
+                                <div class="card-person-content">
+                                    <div class="card-person-content-head">
+                                        <a href="#">
+                                            <h3 class="card-person-title">Олена</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- person Card End -->
+ 
+                        </div>
+                    </div>
+ 
+                </main>
+
+            </div>
+            <p style="text-align: center;">ЯКІ ЗАНЯТТЯ <br> ПРОХОДЯТЬ ДІТКИ</p>
+            <div class="education">
+                <ul>
+                    <li>Англійська мова</li>
+                    <li>Польська мова</li>
+                    <li>Сенсомоторний розвиток</li>
+                    <li>Майстер-класи</li>
+                </ul>
+                <ul>
+                    <li>Конструювання та робототехніка</li>
+                    <li>Емоційно-ціннісний розвиток</li>
+                    <li>Хореографія</li>
+                    <li>Мультимедійне навчання</li>
+                </ul>
+                <ul>
+                    <li>Фінансова грамотність</li>
+                    <li>Кулінарія</li>
+                    <li>Логіко-математичні заняття</li>
+                    <li>Музичні заняття</li>
+                </ul>
+            </div>
+            <div>
+                <p style="text-align: center;">Наші Групи та Ціни</p>
+            </div>
+            <div class="price">
+                <div class="area-1">
+                    <h4 style="font-size:24px;">Перші кроки</h4>
+                    <img src="img/first.svg" alt="">
+                    <ul>
+                    <li>7 діток від 1 року</li> <br>
+                    <li>3 працівника працюють повний день</li> <br>
+                    <li>Розвиваючи заняття згідно віку дитини</li> <br>
+                    <li>Індивідуальне, власне, 5 разове харчування</li> <br>
+                    <li>Графік роботи: <br>
+                        садок: 08:00 - 19:00 <br>
+                        Міні садок: 8:00 - 13:00</li> <br>
+                    <li>Садок - 8000 грн/міс</li> <br>
+                    <li>Міні садок - 5000 грн</li> <br>
+                    <button class="btn">Детальніше</button>
+                </ul>
+            </div>
+            <div class="area-2">
+                <h4 style="font-size:24px;">Ранній вік</h4>
+                <img src="img/second.svg" alt="">
+                <ul>
+                    <li>10 діток від 2 років</li> <br>
+                    <li>2 працівника працюють повний день</li> <br>
+                    <li>Розвиваючи заняття згідно віку дитини</li> <br>
+                    <li>Індивідуальне, власне, 5 разове харчування</li> <br>
+                    <li>Графік роботи: <br>
+                        садок: 08:00 - 19:00 <br>
+                        Міні садок: 8:00 - 13:00</li> <br>
+                    <li>Садок - 7500 грн/міс</li> <br>
+                    <li>Міні садок - 5000 грн</li> <br>
+                    <button class="btn">Детальніше</button>
+                </ul>
+            </div>
+            <div class="area-3">
+                <h4 style="font-size:24px;">Впевнений старт</h4>
+                <img src="img/third.svg" alt="">
+                <ul>
+                    <li>10 діток від 3 років</li> <br>
+                    <li>2 працівника працюють повний день</li> <br>
+                    <li>Розвиваючи заняття згідно віку дитини</li> <br>
+                    <li>Індивідуальне, власне, 5 разове харчування</li> <br>
+                    <li>Графік роботи: <br>
+                        садок: 08:00 - 19:00 <br>
+                        Міні садок: 8:00 - 13:00</li> <br>
+                    <li>Садок - 7500 грн/міс</li> <br>
+                    <li>Міні садок - 5000 грн</li> <br>
+                    <button class="btn">Детальніше</button>
+                </ul>
+            </div>
+            </div>
+            <div class="price-desc"> <span style="margin:125px;"> У місячну вартість вже включено харчування <br>
+                 і всі додаткові заняття які будуть проходити ваші дітки.</span>
+                <img src="img/ball.png" alt="" style="width: 130px; height: 160px;"></div>
+            <div class="yellow">
+                <div class="question-1">
+                    <p>Мама, тато йДемо <br> в LEVLAnD?</p>
+                    <span class="tn-1">Залишайте заявку на адаптаційний* <br> тиждень у нашому садку. <br>
+                        Вартість — 1999 грн</span>
+                </div>
+                <div class="girl">
+                    <img src="img/photo.svg" alt="" style="width: 156px; height: 156px;">
+                    <img src="img/girl.png" alt="" style="height: 523px; width: 371px; left: 672px; top: 129.9px;">
+                    <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: 1164px; top: 310.2px;">
+                </div>
+            </div>
+            <div class="question">
+                ВІДПОВІДІ НА ЧАСТІ ЗАПИТАННЯ
+            </div>
+            <div class="acor-container"> 
+    
+                <input type="radio" name="acor" id="acor1" />
+                <label for="acor1">Що таке "адаптаційний тиждень"?</label>
+                <div class="acor-body">
+                    <p>Це спеціальна програма, яка допоможе легко адаптуватись вашій дитині до дитячого садочку.</p>
+                </div>
+                
+                <input type="radio" name="acor" id="acor2" />
+                <label for="acor2">Які потрібні документи для вступу?</label>
+                <div class="acor-body">
+                    <ul>
+                        <li>паспорт одного з батьків</li>
+                        <li>свідотство про нарождення дитини</li>
+                        <li>медична довідка (загальний стан здоров.я дитини)</li>
+                        <li>копія карти щеплень</li>
+                    </ul>
+                </div>
+                
+                <input type="radio" name="acor" id="acor3" />
+                <label for="acor3">Яка вартість садочку?</label>
+                <div class="acor-body">
+                    <p>Вартість повного дня: 7 000 грн <br>
+                       Міні садок: 5 000 грн <br>
+                       Вартість адаптаційного тижня: 1999грн\тиж</p>
+                </div> 
+
+                <input type="radio" name="acor" id="acor4" />
+                <label for="acor4">Чи є майданчик?</label>
+                <div class="acor-body">
+                    <p>Так, є закрита территорія з майданчиком</p>
+                </div> 
+
+                <input type="radio" name="acor" id="acor5" />
+                <label for="acor5">Чи візьмете ви дитину якщо?:</label>
+                <div class="acor-body">
+                    <ul>
+                        <li>в підгузках — так</li>
+                        <li>пустушка (соска) - так</li>
+                        <li>ще не їсть самостійно — так</li>
+                        <li>не ходить самостійно — ні</li>
+                    </ul>
+                </div> 
+
+                <input type="radio" name="acor" id="acor6" />
+                <label for="acor6">З якої дати починається набір?</label>
+                <div class="acor-body">
+                    <p>Прийом проводиться цілий рік за наявності місця у групі відповідно до віку</p>
+                </div> 
+
+                <input type="radio" name="acor" id="acor7" />
+                <label for="acor7">Де знаходяться дитячі садочки і як туди добиратись?</label>
+                <div class="acor-body">
+                    <p>1. Адреса: м. Львів, вул. Героїв Крут, 11б
+                        Перейдіть за цим посиланням, щоб переглянути розташування на мапі</p>
+                </div> 
+            </div>
+        </div>
+ 
+    </div>
+ 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+ 
+</html>
